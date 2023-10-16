@@ -16,7 +16,7 @@ const Summary = () => {
 
   useEffect(() => {
     if (searchParams.get("success")) {
-      toast.success("All items have been removed from your cart");
+      toast.success("Order placed successfully.");
       removeAll();
     }
 
